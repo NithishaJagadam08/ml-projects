@@ -1,1 +1,53 @@
+📌 Project Overview
+This project implements the K-Nearest Neighbors (K-NN) algorithm to predict whether a customer will purchase a car based on their age and estimated salary.
 
+📂 Dataset
+File: car_purchase_data.csv
+Columns:
+Age (Independent variable)
+Estimated Salary (Independent variable)
+Purchased (Dependent variable: 0 = No, 1 = Yes)
+🛠️ Libraries Used
+numpy
+pandas
+matplotlib
+sklearn (for model training and evaluation)
+🚀 Steps to Run the Project
+1️⃣ Import Required Libraries
+
+2️⃣ Load the Dataset
+ 
+4️⃣ Feature Scaling
+ 
+5️⃣ Train the K-NN Model
+ 
+classifier.fit(x_train, y_train)
+6️⃣ Predict a New Result
+ 
+7️⃣ Predict the Test Set Results
+ 
+8️⃣ Evaluate the Model Using a Confusion Matrix
+ 
+9️⃣ Visualize the Training Set Results
+ 
+🔟 Visualize the Test Set Results
+ 
+📊 Output Example
+Model Accuracy
+ 
+[[55  3]
+ [ 1 21]]
+Model Accuracy: 0.95
+Prediction for New Data
+ 
+Input: Age = 22, Salary = 40000  
+Output: 0 (No Purchase)
+💡 Notes
+Ensure car_purchase_data.csv is in the same directory as the script.
+The model uses 80% training data and 20% testing data.
+The K-value (neighbors) is set to 5 using the Euclidean distance metric (p=2).
+The confusion matrix evaluates the performance of the model.
+📌 Next Steps
+Tune hyperparameters (K-value, metric, weights) for better accuracy.
+Try different classification algorithms (SVM, Decision Tree, Random Forest).
+Deploy the model using Flask or Streamlit for real-time predictions.
