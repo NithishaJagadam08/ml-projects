@@ -1,1 +1,32 @@
+Project Overview
+This project demonstrates essential data preprocessing techniques required for machine learning models. It includes handling missing data, encoding categorical variables, splitting datasets, and feature scaling using Python and Scikit-Learn. The dataset used contains country names, age, estimated salary, and a target variable indicating a binary classification outcome (Yes/No).
 
+Prerequisites
+Ensure you have the following libraries installed before running the script:
+
+ 
+pip install numpy pandas scikit-learn matplotlib
+Steps Included in the Script
+1. Importing Required Libraries
+ 
+2. Importing the Dataset
+ 
+3. Handling Missing Data
+ 
+4. Encoding Categorical Data
+4.1 Encoding Independent Variables
+4.2 Encoding Dependent Variables
+ 
+5. Splitting the Dataset into Training and Testing Sets
+ 
+6. Feature Scaling
+ 
+Expected Output
+Preprocessed dataset with missing values handled, categorical data encoded, and features scaled.
+Training and testing sets ready for model training.
+How to Run
+Download or clone the repository.
+Run the script in Google Colab or any Python environment.
+Check the outputs for transformed datasets.
+License
+This project is for educational purposes and is free to use.
