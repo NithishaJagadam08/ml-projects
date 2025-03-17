@@ -1,1 +1,43 @@
 
+📌 Project Overview
+This project implements Simple Linear Regression to predict an employee's salary based on their years of experience. The model is trained using historical salary data and can be used to estimate salaries for new employees.
+
+📂 Dataset
+File: Salary.csv
+Columns:
+YearsExperience (Independent variable)
+Salary (Dependent variable)
+🛠️ Libraries Used
+numpy
+pandas
+matplotlib
+sklearn (for model training and prediction)
+🚀 Steps to Run the Project
+1️⃣ Import the Required Libraries
+ 
+2️⃣ Load the Dataset
+ 
+3️⃣ Split the Data into Training & Testing Sets
+ 
+4️⃣ Train the Simple Linear Regression Model
+ 
+5️⃣ Predict the Test Set Results
+ 
+6️⃣ Visualize the Training Set Results
+ 
+7️⃣ Visualize the Test Set Results
+ 
+8️⃣ Predict Salary for a Given Experience
+ 
+📊 Output Example
+ 
+Enter the number of years of experience: 7  
+Predicted Salary for 7 years of experience: $89,853.60  
+💡 Notes
+Ensure Salary.csv is present in the same directory as the script.
+The model uses 80% of the data for training and 20% for testing.
+The random_state=0 ensures reproducibility.
+The linear regression model is trained using scikit-learn.
+📌 Next Steps
+Improve accuracy using Polynomial Regression or Multiple Regression.
+Deploy the model using Flask or Streamlit for real-time predictions.
