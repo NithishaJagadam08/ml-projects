@@ -1,1 +1,45 @@
+📈 Logistic Regression for Car Purchase Prediction
 
+📌 Overview
+This project demonstrates Logistic Regression to predict whether a customer will purchase a car based on factors such as age, salary, and credit score. The dataset car_purchase.csv contains financial and demographic data to help analyze customer purchasing behavior.
+
+📂 Dataset
+Ensure your dataset (car_purchase.csv) is structured as follows:
+
+Age	Salary	Credit Score	Purchased
+25	50000	650	0
+30	60000	700	1
+...	...	...	...
+⚙️ Installation
+Ensure you have Python installed along with the required dependencies:
+
+ 
+pip install numpy pandas matplotlib scikit-learn
+📜 Code Explanation
+
+1️⃣ Import Libraries
+
+ 
+2️⃣ Load Dataset
+
+ 
+3️⃣ Split Dataset into Training and Test Sets
+ 
+4️⃣ Feature Scaling
+ 
+5️⃣ Train Logistic Regression Model
+ 
+6️⃣ Make Predictions on the Test Set
+
+🎯 Expected Output
+Example output of predicted vs actual purchase decisions:
+
+Predicted Purchases: [0 1 0 1 1 ...]  
+Actual Purchases:    [0 1 0 1 0 ...]  
+📜 Notes
+
+Logistic Regression is used for binary classification (0 or 1).
+Feature scaling helps standardize input variables for better model performance.
+The dataset is split into training (80%) and testing (20%) for better evaluation.
+📄 License
+This project is licensed under the MIT License.
