@@ -1,1 +1,39 @@
+Polynomial Regression for Corn Yield Prediction
+📌 Overview
+This project demonstrates Polynomial Regression and Linear Regression to predict corn yield based on fertilizer usage. The dataset Corn_Yield.csv contains information on fertilizer usage and its effect on crop yield.
 
+📂 Dataset
+Ensure your dataset (Corn_Yield.csv) is structured as follows:
+
+Fertilizer Used	Corn Yield
+1.0	10.5
+2.0	15.3
+...	...
+⚙️ Installation
+Ensure you have Python installed along with the required dependencies:
+
+ 
+ 
+📜 Code Explanation
+1️⃣ Import Libraries
+ 
+2️⃣ Load Dataset
+ 
+3️⃣ Train Linear Regression
+ 
+4️⃣ Train Polynomial Regression (Degree = 2)
+ 
+5️⃣ Visualize Results
+📊 Linear Regression
+ 
+6️⃣ Predictions
+🔹 Linear Regression
+ 
+🎯 Expected Output
+Linear Regression Prediction: array([-33.19744314])
+Polynomial Regression Prediction: array([15.23318722])
+📜 Notes
+Polynomial Regression fits non-linear relationships better than Linear Regression.
+You can adjust the degree parameter in PolynomialFeatures(degree=n) to modify model complexity.
+📄 License
+This project is licensed under the MIT License.
