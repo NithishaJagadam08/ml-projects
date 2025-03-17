@@ -1,1 +1,40 @@
+📈 Multiple Linear Regression for Startup Success Prediction
+📌 Overview
+This project demonstrates Multiple Linear Regression to predict the success of startups based on various factors such as R&D Spend, Administration Cost, Marketing Spend, and State. The dataset Successful_Startups.csv contains financial data to help analyze and forecast startup profits.
+
+📂 Dataset
+Ensure your dataset (Successful_Startups.csv) is structured as follows:
+
+R&D Spend	Administration	Marketing Spend	State	Profit
+165349.2	136897.8	471784.1	California	192261.83
+162597.7	151377.59	443898.53	Florida	191792.06
+...	...	...	...	...
+⚙️ Installation
+Ensure you have Python installed along with the required dependencies:
+pip install numpy pandas matplotlib scikit-learn
+📜 Code Explanation
+1️⃣ Import Libraries
+ 
+2️⃣ Load Dataset
+ 
+3️⃣ Encode Categorical Data (State Column)
+ 
+4️⃣ Split Dataset into Training and Test Sets
+ 
+5️⃣ Train Multiple Linear Regression
+ 
+6️⃣ Make Predictions on the Test Set
+ 
+🎯 Expected Output
+Example output of predicted vs actual profits:
+  
+Predicted Profits: [103015.20 132582.27 132447.73 71976.09 178537.48 ...]
+Actual Profits:    [103282.38 144259.40 146121.95 77798.83 191050.39 ...]
+📜 Notes
+Multiple Linear Regression helps predict a dependent variable (profit) based on multiple independent variables.
+One-hot encoding is used to convert categorical variables (State) into numerical form.
+The dataset is split into training (80%) and testing (20%) for better evaluation.
+📄 License
+This project is licensed under the MIT License.
+
 
