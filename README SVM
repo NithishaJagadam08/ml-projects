@@ -1,1 +1,38 @@
+Project Overview
+This project demonstrates Support Vector Machine (SVM) classification for predicting whether a person will purchase a car based on age and estimated salary. The dataset is processed using feature scaling, data splitting, and categorical encoding before training the SVM model. The model's performance is evaluated using accuracy scores and a confusion matrix.
 
+Steps Included in the Script
+
+1. Importing Required Libraries
+ 
+2. Importing the Dataset
+ 
+3. Splitting the Dataset into Training and Testing Sets
+ 
+4. Feature Scaling
+ 
+5. Training the SVM Model
+ 
+6. Making Predictions
+6.1 Predicting a Single Example
+6.2 Predicting the Test Set Results
+ 
+7. Evaluating Model Performance
+
+8. Visualizing the Results
+
+8.1 Training Set Results
+8.2 Test Set Results
+ 
+Expected Output
+Confusion Matrix:
+[[57  1]
+ [ 6 16]]
+Accuracy Score: 91.25%
+Visualization: Decision boundary plots for training and test sets.
+How to Run
+Download or clone the repository.
+Run the script in Google Colab, Jupyter Notebook, or any Python environment.
+Check the outputs for predictions, evaluation metrics, and visualizations.
+License
+This project is for educational purposes and is free to use.
